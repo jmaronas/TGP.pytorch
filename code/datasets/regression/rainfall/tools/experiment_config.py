@@ -1,0 +1,7 @@
+NUMBER_OF_FOLDS = 5
+#USE KFOLD OR RANDOM SAMPLES
+KFOLD=False
+TRAIN_SIZE=0.21 #user 21% of observations to train for random sample
+TOTAL_EPOCHS=5000
+Z_PERCENATAGES = [100]
+
