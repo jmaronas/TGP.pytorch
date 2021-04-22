@@ -24,7 +24,9 @@ $conda activate DSP_py3.7_torch1.5
 pip install -r requirements.txt
 ```
 
+## Tutorial
 
+I have uploaded a simplified version version of this code, running on a toy example here https://github.com/jmaronas/Machine.Learning.Models.pytorch/tree/master/models/Gaussian_Processes/SVGP_TGP . If you just want to understand the machinery behind the TGP, avoiding all the wrapping done to be able to run many different experiments as in the paper, then this simplified code should be much more helpfull.
 
 ## Reproducibility
 
@@ -105,14 +107,19 @@ If you find this idea / code useful, please consider citing:
 
 
 ```
-@InProceedings{
-                2021TGP, 
-                title={Transforming Gaussian Processes With Normalizing Flows}, 
-                author={Maroñas, Juan and Hamelijnck, Oliver and Knoblauch, Jeremias and Damoulas, Theodoros}, 
-                booktitle={Proceedings of the Twenty Fourth International Conference on Artificial Intelligence and Statistics (AISTATS)}, 
-                year={2021},
-                volume={130},
-                }
-            
+@InProceedings{pmlr-v130-maronas21a,
+  title = 	 { Transforming  Gaussian Processes With Normalizing Flows },
+  author =       {Maro{\~n}as, Juan and Hamelijnck, Oliver and Knoblauch, Jeremias and Damoulas, Theodoros},
+  booktitle = 	 {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {1081--1089},
+  year = 	 {2021},
+  editor = 	 {Banerjee, Arindam and Fukumizu, Kenji},
+  volume = 	 {130},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--15 Apr},
+  publisher =    {PMLR},
+}
+    
+        
 ```
 
