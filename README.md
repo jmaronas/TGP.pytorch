@@ -16,7 +16,7 @@ sudo apt-get install libspatialindex-dev -y
 
 ##### Environment
 
-Install python 3.7 environment. First clone the repository. Then, to install a python environment using conda and assuming that `$conda` is the root to the conda install directory (e.g `/usr/local/anaconda3/`)  you must type:
+Install python 3.7 environment. First clone the repository. Then, to install a python environment using conda and assuming that `$conda` is the root to the conda install directory (e.g `/usr/local/anaconda3/bin/conda`)  you must type:
 
 ```bash
 $conda create -y -n DSP_py3.7_torch1.5 python=3.7
